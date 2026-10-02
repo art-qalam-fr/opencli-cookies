@@ -1,0 +1,33 @@
+{
+  "name": "opencli-cookies",
+  "version": "1.0.0",
+  "description": "OpenCLI adapter — dump/export Chrome profile cookies (HttpOnly included) via the Browser Bridge extension",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "clis/",
+    "scripts/"
+  ],
+  "scripts": {
+    "postinstall": "node scripts/install.js",
+    "uninstall": "node scripts/install.js --remove"
+  },
+  "peerDependencies": {
+    "@jackwener/opencli": ">=1.8.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "opencli",
+    "cookies",
+    "browser-automation",
+    "chrome",
+    "adapter"
+  ],
+  "author": "art-qalam-fr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/art-qalam-fr/opencli-cookies.git"
+  }
+}
